@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+	color:white;
+    font-family: copperplate;
+}
+
+.maintitle {
+    position: relative;
+    animation: slider 2s ease-out;
+    text-align: center;
+    color: white;
+}

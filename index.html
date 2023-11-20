@@ -12,64 +12,29 @@
 	
 	gtag('config', 'G-LHCJQSRXJB'); 
 </script>
+<link href="css/mycss.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="Javascript/myjavascript.js"></script>
 		<meta charset="UTF-8">
 		<meta name="description" content="photography for begginers">
 		<meta name="keywords" content="photography, photographer, art, begginers">	
 		<title>Gallery</title>
 	</head>
 	<body>
-		<h1 id="maintitle">SEYUN PARK</h1>
+		<h1 class="maintitle">SEYUN PARK</h1>
 		<div="mainmenus">
-			<div class="box1"><a href="index.html">main</a></div>
-			<div class="box2"><a href="html/form.html">photo</a></div>
-			<div class="box3"><a href="html/works.html">contact</a></div>
-			<div class="instagram"></div>
-			<div class="more"></div>
-			<div class="share"></div>
-			
-		<img src="images/.JPG" alt="??" class="align-left medium">
-				<link href="css/css6.css" type="text/css" rel="stylesheet" />
-		<script>
-			function addimage() {
-				
-	 		 	//Create a new element, and a variable to reference it
-  				const paragraph = document.createElement('p');
-  				paragraph.innerHTML = 'New paragraph.';
-  				
-  				//Add the id now!
-  				paragraph.id = 'newchild';
-      
-  				//Use getElementById to reference the parent element we want to target
-  				var parent = document.getElementById("mydiv");
+		<div class="box1"><a href="index.html">main</a></div>
+	<div id="imageshow">
+        <h1>image</h1>
+        <h3>Click on the button to see image</h3>
+        <!-- img element without src attribute -->
+        <img div id="mydiv100"/>
+    </div>
+    <button type="button" onclick="show()" id="btnID">
+        add Image
+    </button>
 
-  				//Append our new paragraph to the referenced parent
-  				parent.appendChild(paragraph);
-			}
-			
-			function removeParagraph() {				
-			
-				//Reference the child element
-      			var child =  document.getElementById("newchild");
-      			
-  				//Use getElementById to reference the parent element we want to target
-  				var parent = document.getElementById("mydiv");
-			
-  				//Delete the child from the parent
-  				parent.removeChild(child);
-			}			
-		</script>
-  	
-  		<title>Add a Element example</title>
-	</head>
 
-	<body>
-		<h2>Add element to a target parent element</h2>
-		<button onclick="addParagraph()">add a paragraph</button>
-		<button onclick="removeParagraph()">remove a paragraph</button>
-		<div id="mydiv">
-		</div>
-	<script>
-			document.getElementById("demo").innerHTML = "Hello from JavaScript!";
-	</script>	 
 </body>
+ 
 </html>
+
