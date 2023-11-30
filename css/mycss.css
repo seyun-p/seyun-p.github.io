@@ -4,9 +4,94 @@ body{
     font-family: copperplate;
 }
 
+body{
+font-family: Georgia, "Times New Roman", serif;
+color: white;}
+
+#preview{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+border: 5px solid red;}
+
+img.align-right	{
+width:100%;
+height:auto;}
+
+img.align-left{
+width:100%;
+height:auto;}
+
+img.align-center{
+width:100%;
+height:auto;}
+
+
 .maintitle {
     position: relative;
     animation: slider 2s ease-out;
     text-align: center;
     color: white;
 }
+
+@keyframes slider {
+    0% {    
+        opacity: 0;
+        left: -700px;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+a{
+color: white;
+font-size:10px;
+font-weight:bold;}
+
+a:active{
+color: white;}
+
+.titlebar{
+display: flex;
+border:5px solid green;}
+
+.nav{
+display:flex;
+justify-content:left;
+flex:1;
+border:5px solid blue;}
+
+.socialmedia{
+display:flex;
+justify-content:right;
+flex:1;
+border: 5px solid yellow;}
+
+.box1{
+padding:10px;
+margin:10px;}
+
+.box2{
+padding:10px;
+margin:10px;}
+
+.box3{
+padding:10px;
+margin:10px;}
+
+.empty{
+padding:10px;
+margin:10px;}
+
+.instagram{
+padding:10px;
+margin:10px;}
+
+.more{
+padding:10px;
+margin:10px;}
+
+.box4{
+padding:10px;
+margin:10px;}
