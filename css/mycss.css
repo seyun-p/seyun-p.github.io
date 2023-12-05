@@ -95,3 +95,72 @@ margin:10px;}
 .box4{
 padding:10px;
 margin:10px;}
+
+#page2{
+width:100%;
+height:100vh;
+background: linear-gradient(to right, white 0%, white 25%, black 25%, black 75%);}
+
+.secondtitlebar{
+position:fixed;
+border:5px solid yellow;
+display:grid;}
+
+#content{
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 400px;
+  height: auto;
+  border: 3px solid #73AD21;}
+
+h4{
+color:black;}
+
+.gallerynav{
+justify-content:left;
+flex:1;
+border:5px solid blue;}
+
+.maintitle2{
+color:black;}
+
+li>a{
+color:black;
+padding:1px;
+margin:1px;
+font-size:10px;}
+
+.socialmedia2{
+display:inline-flex;
+justify-content:left;
+border:5px solid red;}
+
+.grid-item{
+padding:5px;
+margin:5px;}
+
+#aboutme{
+justify-content:right;
+border: 5px solid purple;
+display:grid;}
+
+.coming{
+    position: relative;
+    animation: slider 1s ease-out;
+    text-align: center;
+    color: white;
+	font-size:80px;
+}
+
+@keyframes slider {
+    0% {    
+        opacity: 0;
+        left: -700px;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
