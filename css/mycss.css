@@ -1,29 +1,33 @@
 body{
     background-color: black;
 	color:white;
-    font-family: copperplate;
 }
 
-body{
-font-family: Georgia, "Times New Roman", serif;
-color: white;}
+.class{
+    font-size: 24pt;
+    font-family: "Copperplate Gothic Bold", Copperplate, Balthazar;
+}
 
 #preview{
 display:grid;
 grid-template-columns:1fr 1fr 1fr;
-border: 5px solid red;}
+border: 5px solid red;
+}
 
 img.align-right	{
 width:100%;
-height:auto;}
+height:auto;
+}
 
 img.align-left{
 width:100%;
-height:auto;}
+height:auto;
+}
 
 img.align-center{
 width:100%;
-height:auto;}
+height:auto;
+}
 
 
 .maintitle {
@@ -47,111 +51,141 @@ height:auto;}
 a{
 color: white;
 font-size:10px;
-font-weight:bold;}
+font-weight:bold;
+}
 
 a:active{
-color: white;}
+color: white;
+}
 
 .titlebar{
 display: flex;
-border:5px solid green;}
+border:5px solid green;
+}
 
 .nav{
 display:flex;
 justify-content:left;
 flex:1;
-border:5px solid blue;}
+border:5px solid blue;
+}
 
 .socialmedia{
 display:flex;
 justify-content:right;
 flex:1;
-border: 5px solid yellow;}
+border: 5px solid yellow;
+}
 
 .box1{
 padding:10px;
-margin:10px;}
+margin:10px;
+}
 
 .box2{
 padding:10px;
-margin:10px;}
+margin:10px;
+}
 
 .box3{
 padding:10px;
-margin:10px;}
+margin:10px;
+}
 
 .empty{
 padding:10px;
-margin:10px;}
+margin:10px;
+}
 
 .instagram{
 padding:10px;
-margin:10px;}
+margin:10px;
+}
 
 .more{
 padding:10px;
-margin:10px;}
+margin:10px;
+}
 
 .box4{
 padding:10px;
-margin:10px;}
+margin:10px;
+}
 
-#page2{
-width:100%;
-height:100vh;
-background: linear-gradient(to right, white 0%, white 25%, black 25%, black 75%);}
+.page2{
+display: flex;
+border:5px solid green;
+}
 
 .secondtitlebar{
-position:fixed;
-border:5px solid yellow;
-display:grid;}
-
-#content{
-  position: absolute;
-  top: 80px;
-  right: 0;
-  width: 400px;
-  height: auto;
-  border: 3px solid #73AD21;}
-
-h4{
-color:black;}
-
-.gallerynav{
+background-color:white;
+display:grid;
 justify-content:left;
 flex:1;
-border:5px solid blue;}
+border:5px solid blue;
+}
+
+.content{
+display:grid;
+justify-content:right;
+flex:3;
+padding:2px;
+border: 2px solid white;
+}
+
+.socialmedia2{
+display:inline-flex;
+justify-content:left;
+border:5px solid red;
+}
+
+.grid-item{
+padding:5px;
+margin:5px;
+}
+  
+h4{
+color:black;
+}
+
+.gallerynav{
+background-color:white;
+position:fixed;
+margin-left:10px;
+justify-content:left;
+flex:1;
+border:5px solid pink;
+}
 
 .maintitle2{
-color:black;}
+color:black;
+}
 
 li>a{
 color:black;
 padding:1px;
 margin:1px;
-font-size:10px;}
-
-.socialmedia2{
-display:inline-flex;
-justify-content:left;
-border:5px solid red;}
-
-.grid-item{
-padding:5px;
-margin:5px;}
+font-size:10px;
+}
 
 #aboutme{
-justify-content:right;
 border: 5px solid purple;
-display:grid;}
+flex:3;
+display:grid;
+}
 
 .coming{
-    position: relative;
-    animation: slider 1s ease-out;
-    text-align: center;
-    color: white;
-	font-size:80px;
+position: relative;
+animation: slider 1s ease-out;
+text-align: center;
+color: white;
+font-size:80px;
+display:grid;
+justify-content:right;
+flex:3;
+border: 5px solid yellow
 }
+
 
 @keyframes slider {
     0% {    
@@ -164,3 +198,108 @@ display:grid;}
     }
 }
 
+.gallery{
+background-color:black;
+display:grid;
+grid-template-columns:1fr 1.8fr 1.8fr;
+border: 5px solid yellow;
+}
+
+.secondtitlebar1{
+background-color:white;
+display:grid;
+justify-content:left;
+flex:1;
+border:5px solid blue;
+}
+
+.fixednav{
+	position:fixed; 
+	border-width:thin;
+	top:100px;
+}
+
+#gallery1{
+border: 5px solid orange;
+}
+
+#gallery2{
+border: 5px solid orange;
+}
+
+/*odd number*/
+.foto1{
+margin:5px;
+padding:10px;
+max-width:100%;
+height:auto;
+}
+
+.foto3{
+margin:5px;
+padding:10px;
+max-width:100%;
+height:auto;
+}
+
+.foto5{
+margin:5px;
+padding:10px;
+max-width:100%;
+height:auto;
+}
+
+.foto7{
+margin:5px;
+padding:10px;
+max-width:100%;
+height:auto;
+}
+
+.foto9{
+margin:5px;
+padding:10px;
+max-width:100%;
+height:auto;
+}
+
+/*even number*/
+.foto2{
+margin:5px;
+padding:10px;
+max-width:100%;
+height:auto;
+}
+
+.foto4{
+margin:5px;
+padding:10px;
+max-width:100%;
+height:auto;
+}
+
+.foto6{
+margin:5px;
+padding:10px;
+max-width:100%;
+height:auto;
+}
+
+.foto8{
+margin:5px;
+padding:10px;
+max-width:100%;
+height:auto;
+}
+
+.seyun{
+border:3px solid yellow;
+}
+
+.family{
+border:3px solid yellow;
+}
+
+.funfact{
+border:3px solid yellow;
+}
