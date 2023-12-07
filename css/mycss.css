@@ -4,8 +4,8 @@ body{
 }
 
 .class{
-    font-size: 24pt;
-    font-family: "Copperplate Gothic Bold", Copperplate, Balthazar;
+font-size: 24pt;
+font-family: "Copperplate Gothic Bold", Copperplate, Balthazar;
 }
 
 #preview{
@@ -28,7 +28,6 @@ img.align-center{
 width:100%;
 height:auto;
 }
-
 
 .maintitle {
     position: relative;
@@ -185,7 +184,6 @@ justify-content:right;
 flex:3;
 border: 5px solid yellow
 }
-
 
 @keyframes slider {
     0% {    
