@@ -1,3 +1,5 @@
+
+
 body{
     background-color: black;
 	color:white;
@@ -11,22 +13,27 @@ font-family: "Copperplate Gothic Bold", Copperplate, Balthazar;
 #preview{
 display:grid;
 grid-template-columns:1fr 1fr 1fr;
-border: 5px solid red;
 }
 
 img.align-right	{
 width:100%;
 height:auto;
+padding:10px;
+margin:10px;
 }
 
 img.align-left{
 width:100%;
 height:auto;
+padding:10px;
+margin:10px;
 }
 
 img.align-center{
 width:100%;
 height:auto;
+padding:10px;
+margin:10px;
 }
 
 .maintitle {
@@ -59,21 +66,18 @@ color: white;
 
 .titlebar{
 display: flex;
-border:5px solid green;
 }
 
 .nav{
 display:flex;
 justify-content:left;
 flex:1;
-border:5px solid blue;
 }
 
 .socialmedia{
 display:flex;
 justify-content:right;
 flex:1;
-border: 5px solid yellow;
 }
 
 .box1{
@@ -113,7 +117,6 @@ margin:10px;
 
 .page2{
 display: flex;
-border:5px solid green;
 }
 
 .secondtitlebar{
@@ -121,21 +124,42 @@ background-color:white;
 display:grid;
 justify-content:left;
 flex:1;
-border:5px solid blue;
 }
 
 .content{
 display:grid;
-justify-content:right;
+justify-content:center;
 flex:3;
-padding:2px;
-border: 2px solid white;
+padding:30px;
+}
+fieldset{
+display:grid;
+justify-content:center;
+}
+
+button:hover{
+background-color:pink;}
+
+option:checked, option:hover{
+color:black;
+background-color:pink;}
+
+textarea:focus-visible{
+background-color:pink;
+transition:3s;}
+
+input:focus{
+background-color:pink;
+transition:3s;}
+
+.contactinfo, p, h3, a{
+display:grid;
+justify-content:center;
 }
 
 .socialmedia2{
 display:inline-flex;
 justify-content:left;
-border:5px solid red;
 }
 
 .grid-item{
@@ -153,7 +177,6 @@ position:fixed;
 margin-left:10px;
 justify-content:left;
 flex:1;
-border:5px solid pink;
 }
 
 .maintitle2{
@@ -167,12 +190,6 @@ margin:1px;
 font-size:10px;
 }
 
-#aboutme{
-border: 5px solid purple;
-flex:3;
-display:grid;
-}
-
 .coming{
 position: relative;
 animation: slider 1s ease-out;
@@ -182,7 +199,6 @@ font-size:80px;
 display:grid;
 justify-content:right;
 flex:3;
-border: 5px solid yellow
 }
 
 @keyframes slider {
@@ -200,7 +216,7 @@ border: 5px solid yellow
 background-color:black;
 display:grid;
 grid-template-columns:1fr 1.8fr 1.8fr;
-border: 5px solid yellow;
+border: 5px solid pink;
 }
 
 .secondtitlebar1{
@@ -208,7 +224,6 @@ background-color:white;
 display:grid;
 justify-content:left;
 flex:1;
-border:5px solid blue;
 }
 
 .fixednav{
@@ -217,13 +232,7 @@ border:5px solid blue;
 	top:100px;
 }
 
-#gallery1{
-border: 5px solid orange;
-}
 
-#gallery2{
-border: 5px solid orange;
-}
 
 /*odd number*/
 .foto1{
@@ -233,35 +242,6 @@ max-width:100%;
 height:auto;
 }
 
-.foto3{
-margin:5px;
-padding:10px;
-max-width:100%;
-height:auto;
-}
-
-.foto5{
-margin:5px;
-padding:10px;
-max-width:100%;
-height:auto;
-}
-
-.foto7{
-margin:5px;
-padding:10px;
-max-width:100%;
-height:auto;
-}
-
-.foto9{
-margin:5px;
-padding:10px;
-max-width:100%;
-height:auto;
-}
-
-/*even number*/
 .foto2{
 margin:5px;
 padding:10px;
@@ -269,35 +249,222 @@ max-width:100%;
 height:auto;
 }
 
-.foto4{
-margin:5px;
+#aboutme{
+margin:10px;
 padding:10px;
-max-width:100%;
-height:auto;
+justify-content:center;
+grid-template-columns:1fr 2fr 2fr;
 }
 
-.foto6{
+/*
+first div
+*/
+
+.firstcard{
+background-color:black;
+display:grid;
+grid-template-columns:1fr 3fr;
+border: 5px solid pink;
+}
+
+.card {
+	width:auto;
+  padding:5px;
+  margin: 5px;
+  border: 5px solid blue;
+}
+
+.card__image {
+  width: 30%;
+  max-height: 80px;
+  border-radius: var(--border-radius-primary);
+  object-fit: cover;
+  margin: 5px;
+  padding:5px;
+    max-height: none;
+    min-height: 400px;
+  }
+  
+  .minitt{
+  top: 80%; 
+  left: 50%; 
+  transform: translate(38%, -290%);  
+  color: white; 
+  padding: 10px; 
+  font-size: 50px; 
+text-align: left;
+position:absolute;
+}
+
+
+.card2 {
+  max-width: 80%;
+  border-radius: var(--border-radius-primary);
+  	width:auto;
+  padding:5px;
+  margin: 5px;
+  border: 5px solid blue;
+}
+
+.card3 {
+  	width:auto;
+  padding:5px;
+  margin: 5px;
+  border: 5px solid blue;
+}
+
+.card4{
+background-color:black;
+display:grid;
+border-radius: var(--border-radius-primary);
+grid-template-columns:1.8fr 1.8fr;
+position:sticky;
+  width:auto;
+  padding:5px;
+  margin: 5px;
+  border: 5px solid blue;
+}
+
+.image-container {
+	padding:5px;
+  margin:10px;
+  position: sticky;
+  display: inline-block;
+  border: 5px solid pink;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: rgba(100,100,100,0.6); 
+  color: #fff; 
+  padding: 10px 10px; 
+  font-size: 10px; 
+text-align: left;
+}
+
+ * {
+  box-sizing: border-box;
+}
+
+
+.container {
+  padding: 100px 30px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.image-stack {
+  position: sticky;
+  width: 100%;
+}
+
+.image-stack__item--bottom {
+  position: sticky;
+  right: 0;
+  top: 0;
+  width: 80%; 
+}
+
+.image-stack__item--top {
+  padding-top: 20px; 
+  padding-right: 20%; 
+  width: 80%;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+.image-container2 {
+	padding:5px;
+  margin:10px;
+  position: sticky;
+  display: inline-block;
+  border: 5px solid pink;
+}
+
+.overlay-text1{
+  top: 80%; 
+  left: 50%; 
+  transform: translate(40%, -50%);  
+  color: white; 
+  padding: 10px; 
+  font-size: 50px; 
+text-align: left;
+}
+
+.fun1{
+background-color:black;
+display:grid;
+grid-template-columns:1fr 1.8fr 1.8fr;
+}
+
+.fun2{
+  width: 350px;
+  height: auto;
+  padding:5px;
+  margin:40px;
+  border: 5px solid yellow; 
+}
+
+.fun3{
+width: 350px;
+height: auto;
+border: 5px solid yellow;
+padding:30px;
 margin:5px;
-padding:10px;
-max-width:100%;
+}
+
+
+.foto{
+width:370px;
 height:auto;
-}
-
-.foto8{
-margin:5px;
 padding:10px;
-max-width:100%;
+margin:30px;
+}
+
+.foto0{
+width:370px;
 height:auto;
+padding:10px;
+margin:30px;
 }
 
-.seyun{
-border:3px solid yellow;
+.about{
+margin:10px;
+padding:10px;
+justify-content:center;
+grid-template-columns:1fr 2fr 2fr;
+border: 5px solid purple;
 }
 
-.family{
-border:3px solid yellow;
+/* Mobile */
+@media (min-width:320px) { 
+
+    .tester {
+
+    }
 }
 
-.funfact{
-border:3px solid yellow;
+/* Tablet */
+@media (min-width:640px) {
+
+    .tester {
+
+    }   
+
+}
+
+/* Desktop */
+@media (min-width:960px) {
+
+    .tester {
+
+    }   
+
 }
