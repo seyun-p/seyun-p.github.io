@@ -267,8 +267,8 @@ height:auto;
 }
 
 #aboutme{
-margin:10px;
-padding:10px;
+margin:20px;
+padding:30px;
 justify-content:center;
 }
 
@@ -294,7 +294,7 @@ first div
   }
   
   .minitt{
-  top: 80%; 
+  top: 30%; 
   left: 40%; 
   transform: translate(50%, -100%);  
   color: white; 
