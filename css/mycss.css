@@ -1,13 +1,14 @@
+p{
+font-family:"Times New Roman";
+}
 
+li{
+	font-family:"Courier New";
+}
 
 body{
     background-color: black;
 	color:white;
-}
-
-.class{
-font-size: 24pt;
-font-family: "Copperplate Gothic Bold", Copperplate, Balthazar;
 }
 
 #preview{
@@ -41,7 +42,10 @@ margin:10px;
     animation: slider 2s ease-out;
     text-align: center;
     color: white;
+	font-family:"Georgia";
 }
+
+
 
 @keyframes slider {
     0% {    
@@ -66,6 +70,7 @@ color: white;
 
 .titlebar{
 display: flex;
+font-family:"Courier New";
 }
 
 .nav{
@@ -126,6 +131,13 @@ justify-content:left;
 flex:1;
 }
 
+.secondtitlebar2{
+background-color:white;
+display:grid;
+justify-content:left;
+flex:1;
+}
+
 .content{
 display:grid;
 justify-content:center;
@@ -169,6 +181,7 @@ margin:5px;
   
 h4{
 color:black;
+font-family:"Georgia";
 }
 
 .gallerynav{
@@ -216,7 +229,12 @@ flex:3;
 background-color:black;
 display:grid;
 grid-template-columns:1fr 1.8fr 1.8fr;
-border: 5px solid pink;
+}
+
+.about2{
+background-color:black;
+display:grid;
+grid-template-columns:1fr 3.6fr;
 }
 
 .secondtitlebar1{
@@ -231,7 +249,6 @@ flex:1;
 	border-width:thin;
 	top:100px;
 }
-
 
 
 /*odd number*/
@@ -253,25 +270,16 @@ height:auto;
 margin:10px;
 padding:10px;
 justify-content:center;
-grid-template-columns:1fr 2fr 2fr;
 }
 
 /*
 first div
 */
 
-.firstcard{
-background-color:black;
-display:grid;
-grid-template-columns:1fr 3fr;
-border: 5px solid pink;
-}
-
 .card {
 	width:auto;
   padding:5px;
   margin: 5px;
-  border: 5px solid blue;
 }
 
 .card__image {
@@ -287,30 +295,38 @@ border: 5px solid pink;
   
   .minitt{
   top: 80%; 
-  left: 50%; 
-  transform: translate(38%, -290%);  
+  left: 40%; 
+  transform: translate(50%, -280%);  
   color: white; 
-  padding: 10px; 
+  padding: 5px; 
   font-size: 50px; 
 text-align: left;
 position:absolute;
+font-family:"Georgia";
 }
 
 
 .card2 {
-  max-width: 80%;
   border-radius: var(--border-radius-primary);
-  	width:auto;
-  padding:5px;
-  margin: 5px;
-  border: 5px solid blue;
+	width:100%;
+	height:auto;
+}
+
+.card2image{
+	width:100%;
+	height:auto;
+}
+
+.card3image{
+	width:100%;
+	height:auto;
 }
 
 .card3 {
-  	width:auto;
+	width:100%;
+	height:auto;
   padding:5px;
   margin: 5px;
-  border: 5px solid blue;
 }
 
 .card4{
@@ -322,15 +338,32 @@ position:sticky;
   width:auto;
   padding:5px;
   margin: 5px;
-  border: 5px solid blue;
+}
+
+.card5{
+	width:100%;
+	height:auto;
+  padding:5px;
+  margin: 5px;
+}
+
+.card6{
+	width:100%;
+	height:auto;
+display:grid;
+border-radius: var(--border-radius-primary);
+grid-template-columns:1fr 2fr;
+  padding:5px;
+  margin: 5px;
 }
 
 .image-container {
+	width:100%;
+	height:auto;
 	padding:5px;
   margin:10px;
   position: sticky;
   display: inline-block;
-  border: 5px solid pink;
 }
 
 .overlay-text {
@@ -338,11 +371,13 @@ position:sticky;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
-  background-color: rgba(100,100,100,0.6); 
+  background-color: rgba(100,100,100,0.3); 
   color: #fff; 
   padding: 10px 10px; 
   font-size: 10px; 
 text-align: left;
+	width:80%;
+	height:auto;
 }
 
  * {
@@ -380,13 +415,6 @@ img{
   display: block;
 }
 
-.image-container2 {
-	padding:5px;
-  margin:10px;
-  position: sticky;
-  display: inline-block;
-  border: 5px solid pink;
-}
 
 .overlay-text1{
   top: 80%; 
@@ -396,52 +424,19 @@ img{
   padding: 10px; 
   font-size: 50px; 
 text-align: left;
+	width:100%;
+	height:auto;
+	font-family:"Georgia";
 }
 
-.fun1{
-background-color:black;
-display:grid;
-grid-template-columns:1fr 1.8fr 1.8fr;
-}
-
-.fun2{
-  width: 350px;
-  height: auto;
-  padding:5px;
-  margin:40px;
-  border: 5px solid yellow; 
-}
 
 .fun3{
-width: 350px;
-height: auto;
-border: 5px solid yellow;
+	width:100%;
+	height:auto;
 padding:30px;
-margin:5px;
-}
-
-
-.foto{
-width:370px;
-height:auto;
-padding:10px;
-margin:30px;
-}
-
-.foto0{
-width:370px;
-height:auto;
-padding:10px;
-margin:30px;
-}
-
-.about{
 margin:10px;
-padding:10px;
-justify-content:center;
-grid-template-columns:1fr 2fr 2fr;
-border: 5px solid purple;
 }
+
 
 /* Mobile */
 @media (min-width:320px) { 
