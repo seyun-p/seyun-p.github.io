@@ -296,7 +296,7 @@ first div
   .minitt{
   top: 80%; 
   left: 40%; 
-  transform: translate(50%, -280%);  
+  transform: translate(50%, -150%);  
   color: white; 
   padding: 5px; 
   font-size: 50px; 
