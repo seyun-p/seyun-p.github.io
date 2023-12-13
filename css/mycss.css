@@ -293,18 +293,6 @@ first div
     min-height: 400px;
   }
   
-  .minitt{
-  top: 30%; 
-  left: 40%; 
-  transform: translate(50%, -100%);  
-  color: white; 
-  padding: 5px; 
-  font-size: 50px; 
-text-align: left;
-position:absolute;
-font-family:"Georgia";
-}
-
 
 .card2 {
   border-radius: var(--border-radius-primary);
